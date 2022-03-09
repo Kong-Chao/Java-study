@@ -18,6 +18,9 @@ package com.study.base.objectoriented;
  *   3.不能是public、protected、private、static
  *   4.一定是在new后面，用其隐含实现一个接口或是继承一个类
  *   5.匿名内部类为局部的，所以局部内部类所有限制对其生效
+ *
+ *   依赖外部类对象的：成员内部类、方法内部类、匿名内部类
+ *  项目开发中优先考虑选择静态内部类（不会产生内存泄露）
  */
 public class Test67 {
     public static void main(String[] args) {
@@ -124,4 +127,6 @@ class Outer {
     abstract class Cat {
         public abstract void eat();
     }
+
+
 }
