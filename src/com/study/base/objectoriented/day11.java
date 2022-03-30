@@ -4,7 +4,7 @@ package com.study.base.objectoriented;
  *  简单工厂模式：是由一个工厂对象决定决定创建出哪一种产品类的实例。简单工厂模式是工厂模式家族中最简单实用的模式（
  *  通过工厂创建对象，不是直接创建对象）
  */
-public class Test64 {
+public class day11 {
     public static void main(String[] args) {
         //使用着和被使用着两者之间，耦合，产生了依赖，当被使用者改变时，会影响使用着，使用工厂模式降低两者之间的关系
 //        Product p = new phone();

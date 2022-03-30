@@ -13,7 +13,7 @@ package com.study.base.objectoriented;
  * 6.抽象类不能被声明为final
  * 7.抽象类可以有构造方法
  */
-public class AbstractTest {
+public class day5 {
     public static void main(String[] args) {
         Man man =new Man();
         man.eat();

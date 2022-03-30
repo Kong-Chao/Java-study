@@ -4,7 +4,7 @@ package com.study.base.objectoriented;
  * 面向过程：以步骤为单位，一步一步完成某一个具体事情
  * 面向对象： 以对象为单位，通过调度组合不同的对象来完成某一个事情
  */
-public class ClassesAndObjects {
+public class day1 {
     public static void main(String[] args) {
         Horse horse =new Horse();
         horse.name ="千里马";

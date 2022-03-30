@@ -14,7 +14,7 @@ package com.study.base.objectoriented;
  *  方法重载（overloading）：发生在同一个类中，方法名相同，参数列表不同，返回值无关。
  *  区别：
  */
-public class Extends {
+public class day2 {
     public static void main(String[] args) {
         HomeDog homeDog = new HomeDog("灰灰");
         homeDog.print();

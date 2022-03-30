@@ -12,7 +12,7 @@ package com.study.base.objectoriented;
  *      9.接口不能被实例化
  *
  */
-public class JieKou {
+public class day6 {
     public static void main(String[] args) {
         Girl mm= new Girl("玛丽");
         mm.sleep();

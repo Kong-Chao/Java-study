@@ -1,4 +1,4 @@
-package com.study.base.datastructure;
+package com.study.base.objectoriented;
 
 /**
  * 链表：一种常见的基础数据结构，是一种线性表，但是并不会按线性的顺序存储数据，而是在每一个节点里存到下一个节点的指针（pointer）
@@ -6,7 +6,7 @@ package com.study.base.datastructure;
  * 数组适合查找、遍历、固定长度
  * 链表适合插入、删除、不宜过长，否则会导致遍历性能下降
  */
-public class Test71 {
+public class day16 {
     public static void main(String[] args) {
         System.out.println("...........add..............");
         NodeManger nm = new NodeManger();

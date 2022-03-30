@@ -4,7 +4,7 @@ package com.study.base.objectoriented;
  *  Object类：toString方法:
  *          equals方法：判定某个对象与此对象是否相等
  */
-public class FuLeiObject {
+public class day10 {
     public static void main(String[] args) {
         Teacher t= new Teacher("大白",1,10);
         System.out.println(t);

@@ -22,7 +22,7 @@ package com.study.base.objectoriented;
  *   依赖外部类对象的：成员内部类、方法内部类、匿名内部类
  *  项目开发中优先考虑选择静态内部类（不会产生内存泄露）
  */
-public class Test67 {
+public class day14 {
     public static void main(String[] args) {
         Outer outer = new Outer();
         //在外部创建成员内部类的实例，因为成员变量内部类需要依赖外部类的对象。

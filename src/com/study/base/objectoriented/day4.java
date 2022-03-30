@@ -6,7 +6,7 @@ package com.study.base.objectoriented;
  *  2.使用final声明的方法，不能被子类中重写，只能被继承
  *  3.使用final关键字声明一个类，该类就转变为一个最终类，没有子类的类，final修饰的类无法被继承
  */
-public class FinalKeywords {
+public class day4 {
     public static void main(String[] args) {
     FinalClass fc = new FinalClass();
     fc.setLength(6);

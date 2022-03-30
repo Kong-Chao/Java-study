@@ -5,7 +5,7 @@ package com.study.base.objectoriented;
  * 代理模式说白了就是“真实对象的代理”，在访问对象时引入一定程度的间接性。
  * 因为这种间接性可以附加多种用途
  */
-public class Test65 {
+public class day12 {
     public static void main(String[] args) {
         Action userAction = new UserAction();
         ActionProxy poxy = new ActionProxy(userAction);

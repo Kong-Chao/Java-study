@@ -7,7 +7,7 @@ import com.sun.xml.internal.bind.v2.model.core.ID;
  *  继承的应用实例
  */
 
-public class ExtendsTest {
+public class day3 {
     public static void main(String[] args) {
         ImportCosmeticManGerTest cm = new ImportCosmeticManGerTest();
         cm.add(new cosmeticTest("冰冰水","进口",100));
