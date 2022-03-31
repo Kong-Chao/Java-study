@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 /**
  * 1.Throwable是异常的基类，分为Error和Exception，在编程过程中关注Exception
- * 2.Exception分为编译期异常（受检）和运行期异常（非受检）
+ * 2.Exception分为编译期异常（受检）和运行期异常（非受检）RuntimeException
  * 3.异常会导致程序中断，无法继续运行
  * 4.在开发中，我们需要把可能会出现异常的代码使用try语句包裹起来
  * 5.处理异常可以让程序保持运行状态
