@@ -1,4 +1,4 @@
-package com.study.base.day1;
+package com.study.base.method;
 
 /**
  *  方法可以理解为一种抽象思维。把需要重复使用的diamagnetic收取出来定义，必要的时候可以通过调用俩使用，避免了

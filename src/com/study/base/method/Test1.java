@@ -1,4 +1,4 @@
-package com.study.base.day1;
+package com.study.base.method;
 
 import java.util.Scanner;
 

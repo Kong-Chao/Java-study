@@ -1,7 +1,5 @@
 package com.study.base.objectoriented;
 
-import com.study.base.day1.Main;
-
 /**
  * 在链表数据结构中，递归算法是一种直接或间接地调用自身算法的过程，解决编程中一大类问题很有效，且描述简洁便于理解
  */
