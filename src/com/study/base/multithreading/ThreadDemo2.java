@@ -1,6 +1,7 @@
 package com.study.base.multithreading;
 
 /**
+ * 线程休眠
  * join方法的主要作用就是-同步，它可以使线程之间的并行执行变为串行执行
  * 中断线程：
  *      （1）使用interrupt方法来中断线程，在设置设置一个中断状态（标记）

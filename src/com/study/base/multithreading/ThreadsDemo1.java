@@ -23,7 +23,7 @@ package com.study.base.multithreading;
  *
  *
  * */
-public class ThreadsAndProcesses {
+public class ThreadsDemo1 {
     public static void main(String[] args) {
         MyThread mt = new MyThread();
 
