@@ -1,4 +1,4 @@
-package com.study.base.SheJiMoShi;
+package com.study.base.sheJiMoShi;
 
 /**
  *  简单工厂模式：是由一个工厂对象决定决定创建出哪一种产品类的实例。简单工厂模式是工厂模式家族中最简单实用的模式（

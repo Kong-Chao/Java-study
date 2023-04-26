@@ -1,4 +1,4 @@
-package com.study.base.SheJiMoShi;
+package com.study.base.sheJiMoShi;
 
 /**
  * strategy mode(策略模式)：定义了一些列的算法，将每一种算法封装起来并可以相互替换使用，策略模式让算法独立于使用它的客户应用而独立变化

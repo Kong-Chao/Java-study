@@ -1,4 +1,4 @@
-package com.study.base.SheJiMoShi;
+package com.study.base.sheJiMoShi;
 
 /**
  * 设计原则：
