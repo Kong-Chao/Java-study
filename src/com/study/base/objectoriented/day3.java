@@ -1,8 +1,5 @@
 package com.study.base.objectoriented;
 
-import com.sun.org.apache.bcel.internal.generic.NEW;
-import com.sun.xml.internal.bind.v2.model.core.ID;
-
 /**
  *  继承的应用实例
  */
