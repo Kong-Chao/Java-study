@@ -29,7 +29,7 @@ class Dog{
         System.out.println("一个参数构造方法执行");
     }
     public Dog(String name, int age){
-        this(name); //调用其他构造方法时，此句需要在第一句，在构造方法相互调用时必须要有出口
+        this.name = name; //调用其他构造方法时，此句需要在第一句，在构造方法相互调用时必须要有出口
     //    this.name = name;
         this.age =age;
         System.out.println("2个有参构造执行");
@@ -54,6 +54,6 @@ class Dog{
     public void eat(){
         //在方法中使用this调用类中的其他方法，this可以忽略,this前面可以用当前的类名
       //  System.out.println("我是：" + this.getName() +"今年：" + this.getAge()+ "岁,吃骨头");
-        System.out.println("我是：" + Dog.this.getName() +"今年：" + Dog.this.getAge()+ "岁,吃骨头");
+        System.out.println("我是：" + Dog.this.getName() +",今年：" + Dog.this.getAge()+ "岁,吃骨头");
     }
 }
