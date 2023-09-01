@@ -1,5 +1,6 @@
 package com.study.base.test;
 
+import java.math.BigDecimal;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -9,13 +10,6 @@ import java.util.regex.Pattern;
  */
 public class test {
     public static void main(String[] args) {
-        String str = "1111";
-        String pattern = "\\w[-\\w.+]*@([A-Za-z0-9][-A-Za-z0-9]+\\.)+[A-Za-z]{2,14}";
-
-        Pattern r = Pattern.compile(pattern);
-        Matcher m = r.matcher(str);
-        System.out.println(m.matches());
-
+        System.out.println("789798");
     }
-
 }
