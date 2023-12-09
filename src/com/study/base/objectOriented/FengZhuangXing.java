@@ -12,8 +12,8 @@ package com.study.base.objectOriented;
  */
 public class FengZhuangXing {
 
-        private String name;
-        private String idNum;
+        private String name; // 实例变量
+        private String idNum; // 实例变量
         private int age;
 
         public int getAge(){
@@ -29,8 +29,8 @@ public class FengZhuangXing {
         }
 
         public void setAge( int newAge){
-            age = newAge;
-        }
+            this.age = newAge;  // this关键指向 FengZhuangXing
+        } // int newAge 局部变量
 
         public void setName(String newName){
             name = newName;

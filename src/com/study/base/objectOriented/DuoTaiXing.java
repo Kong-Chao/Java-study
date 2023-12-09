@@ -17,6 +17,7 @@ public class DuoTaiXing {
         yePig.eat();*/
         //用父类的引用指向子类对象（用大的类型来表示小的类型），自动转型（向上转型）
         Pig hp = new HomePig("家🐖");
+      //  hp.sleap();  // 这里无法调用子类特有的方法，因为animal引用的是Animal类型
 //        hp.eat();
         Pig yePig = new YePig("野🐖");
 //        yePig.eat();
@@ -66,6 +67,10 @@ class HomePig extends Pig{
     }
     public void eat(){
         System.out.println(this.getName()+ ",吃菜");
+    }
+
+    public void sleap(){
+        System.out.println(this.getName()+ ",睡觉");
     }
 }
 

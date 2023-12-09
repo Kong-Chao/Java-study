@@ -18,6 +18,7 @@ public class ChouXiangLei {
         Man man =new Man();
         man.eat();
         man.move();
+        man.sleep();
 
         Women women= new Women();
         women.eat();
@@ -29,12 +30,14 @@ public class ChouXiangLei {
 
 abstract class Animal{
     public abstract void move(); //方法的声明，抽象方法只有声明，没有实现
+
+    public abstract void sing(); //方法的声明，抽象方法只有声明，没有实现
 }
 
 // 继承抽象类的具体类必须实现所有的抽象方法
 abstract class PerSon extends Animal{
     public abstract void eat();
-    public void sleep(){
+    public  void sleep(){
         System.out.println("睡觉");
     }
 }
@@ -42,6 +45,11 @@ abstract class PerSon extends Animal{
 class Man extends  PerSon{
     public void move(){
         System.out.println("男人喜欢跑步");
+    }
+
+    @Override
+    public void sing() {
+        System.out.println("男人唱跳rap");
     }
 
     public void eat(){
@@ -52,6 +60,11 @@ class Man extends  PerSon{
 class Women extends  PerSon{
     public void move(){
         System.out.println("女人喜欢逛街");
+    }
+
+    @Override
+    public void sing() {
+        System.out.println("女人唱跳rap");
     }
 
     public void eat(){

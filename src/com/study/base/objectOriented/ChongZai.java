@@ -17,8 +17,8 @@ public class ChongZai {
     //定义学习方法并传入String类型的name和int类型age
     public static void study(String name, int age) {
     }
-    //public static int study(String name, int age){
-    //}; //方法报错 因为方法重载与返回值类型无关
+//    public static String study(String name, int age){
+//    }; //方法报错 因为方法重载与返回值类型无关
 
     //定义学习方法并传入String类型的name和int类型age以及String类型的性别
     public static void study(String name, int age, String sex) {
