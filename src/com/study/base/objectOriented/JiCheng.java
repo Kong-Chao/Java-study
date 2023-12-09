@@ -28,7 +28,7 @@ public class JiCheng {
 class Dog1{ //父类
     protected String name;
     private String sex;
-    public Dog1(String name,String sex){
+    public Dog1(String name, String sex){
         this.name =name;
         this.sex = sex;
         System.out.println("Dog1狗的构造方法");
