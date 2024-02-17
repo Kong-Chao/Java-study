@@ -34,4 +34,30 @@
     <url-pattern>/*</url-pattern>
   </filter-mapping>
 
+  <!--日志过滤器-->
+  <filter>
+    <filter-name>LogFilter</filter-name>
+    <filter-class>com.sky.servlet.filter.LogFilter</filter-class>
+    <!--初始化的参数-->
+    <init-param>
+      <param-name>Site</param-name>
+      <param-value>菜鸟教程</param-value>
+    </init-param>
+  </filter>
+  <filter-mapping>
+    <filter-name>LogFilter</filter-name>
+    <url-pattern>/*</url-pattern>
+  </filter-mapping>
+
+  <!--<servlet>
+    &lt;!&ndash; 类名 &ndash;&gt;
+    <servlet-name>DisplayHeader</servlet-name>
+    &lt;!&ndash; 所在的包 &ndash;&gt;
+    <servlet-class>com.sky.servlet.DisplayHeader</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>DisplayHeader</servlet-name>
+    &lt;!&ndash; 访问的网址 &ndash;&gt;
+    <url-pattern>/TomcatTest/DisplayHeader</url-pattern>
+  </servlet-mapping>-->
 </web-app>
